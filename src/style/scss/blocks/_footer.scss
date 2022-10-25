@@ -1,0 +1,71 @@
+.bhromaon-footer {
+    background-color: $black;
+    padding: 80px 0;
+    margin: 0 auto;
+
+    .logo-holder {
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    .pseudo-title {
+        display: block;
+        text-align: center;
+        padding-bottom: 24px;
+        letter-spacing: 0.2em;
+    }
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+
+    .social-item {
+        font-size: 20px;
+    }
+
+    .social-link {
+        
+        transition: color ease-in-out 0.3s;
+
+        .icon-facebook {
+            
+            &:hover {
+                color: $dark-blue;
+            }
+        }
+
+        .icon-twitter {
+            
+            &:hover {
+                color: $light-blue;
+            }
+        }
+
+        .icon-linkedin {
+            color: $blue;
+            
+            &:hover {
+                color: $white;
+            }
+        }
+
+        .icon-youtube {
+            
+            &:hover {
+                color: $red;
+            }
+        }
+
+        .icon-pinterest {
+            
+            &:hover {
+                color: $red;
+            }
+        }
+     }
+}
